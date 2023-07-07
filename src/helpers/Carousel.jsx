@@ -21,7 +21,6 @@ export default function Carousel({ count }) {
                 pagination={{
                     clickable: true,
                 }}
-
                 breakpoints={{
                     640: {
                         slidesPerView: 2,
