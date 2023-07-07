@@ -53,7 +53,6 @@ const Footer = () => {
                 <a href="#" className="text-sm  duration-300 font-outfits text-gray-600 hover:text-orange-500">Drinks, tea, coffe</a>
               </li>
             </ul>
-
           </div>
         </div>
         <div className="copyright ring-1 ring-gray-200 ">
