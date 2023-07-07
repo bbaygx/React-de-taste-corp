@@ -44,8 +44,6 @@ const Restaurant = () => {
           </div>
         </div>
       </section>
-
-
       <section className='w-[90%] m-auto mt-10 md:mt-16'>
         <div className="container">
           <div className="content">
