@@ -56,7 +56,7 @@ const Footer = () => {
 
           </div>
         </div>
-        <div className="copyright ring-1  ring-gray-200 ">
+        <div className="copyright ring-1 ring-gray-200 ">
           <div className="container ">
             <div className="mt-4 flex flex-col items-center">
               <div className="menuBottom flex gap-2  mt-2">
