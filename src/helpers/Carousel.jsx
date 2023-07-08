@@ -1,15 +1,8 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { AiFillStar, AiOutlineHeart } from "react-icons/ai"
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
-
-// import required modules
-
 export default function Carousel({ count }) {
     const countArray = Array.from({ length: count }, (_, index) => index + 1);
 
