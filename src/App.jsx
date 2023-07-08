@@ -1,10 +1,8 @@
-import { useState } from 'react'
 import { Routes, Route } from "react-router-dom"
 import { Home, Restaurant } from './pages'
 import { Footer } from './components'
 
 function App() {
-
   return (
     <>
       <Routes>

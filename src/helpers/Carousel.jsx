@@ -1,11 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { AiFillStar, AiOutlineHeart } from "react-icons/ai"
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 export default function Carousel({ count }) {
     const countArray = Array.from({ length: count }, (_, index) => index + 1);
-
     return (
         <>
             <Swiper

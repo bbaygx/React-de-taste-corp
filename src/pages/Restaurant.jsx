@@ -17,7 +17,6 @@ const Restaurant = () => {
           </div>
         </div>
       </header>
-
       <section className='w-[90%] m-auto mt-10'>
         <div className="container">
           <div className="content">
