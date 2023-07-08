@@ -1,11 +1,11 @@
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import { SearchInput } from "./"
-import { FiSearch, FiShoppingCart } from "react-icons/fi"
-import { MdDiscount } from "react-icons/md"
-import { AiOutlineHeart, AiFillHeart, AiOutlineSearch } from "react-icons/ai"
-import { HiOutlineMenuAlt2 } from "react-icons/hi"
-import {BsMenuApp} from "react-icons/bs"
-import {IoCall} from "react-icons/io5"
+
+import {
+    IoCall, BsMenuApp, HiOutlineMenuAlt2,
+    AiOutlineSearch, AiOutlineHeart, AiFillHeart
+    , MdDiscount, FiSearch, FiShoppingCart
+} from "../utils"
 
 
 const Navbar = () => {
@@ -45,24 +45,24 @@ const Navbar = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="bg-base-100  flex justify-between items-center gap-3 py-4 px-4">
+            <div className="bg-base-100  flex justify-between items-center gap-3 py-2 px-4">
                 <a href="#">
                     <IoCall className='text-xl ' />
                 </a>
                 <div className="flex-none hidden sm:block">
-                    <ul className='flex gap-6'>
+                    {/* <ul className='flex gap-6'>
                         <li>
                             <a href="#">Testimonial</a>
                         </li>
                         <li>
                             <a href="#">Tentang Kami</a>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
-            <div className="flex gap-6">
-                <span className='text-sm font-bold text-slate-200'>Daftar</span>
-                <span className='text-sm font-bold text-slate-200'>Login</span>
-            </div>
+                <div className="flex gap-6">
+                    <span className='text-sm font-bold text-gray-400'>Daftar</span>
+                    <span className='text-sm font-bold text-gray-400'>Login</span>
+                </div>
             </div>
 
 
@@ -83,7 +83,7 @@ const Navbar = () => {
                         <a className="font-bold normal-case text-base lg:text-xl">De Taste Food</a>
 
                         <div className="dropdown dropdown-bottom fixed bg-base-200 cursor-pointer shadow-md mx-2 p-3 rounded-md top-52 md:hidden">
-                            <BsMenuApp className='w-6 h-6' tabIndex={0}/>
+                            <BsMenuApp className='w-6 h-6' tabIndex={0} />
                             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                                 <li><a>Item 1</a></li>
                                 <li><a>Item 2</a></li>
@@ -94,7 +94,7 @@ const Navbar = () => {
                     </div>
                     <div className="navbar-center">
                         <div className="dropdown dropdown-bottom bg-base-100 py-1 px-5 font-medium cursor-pointer border-2 hidden md:flex md:gap-2 md:items-center md:rounded-full md:mr-3">
-                            <BsMenuApp className='w-5 h-5 cursor-pointer'/>
+                            <BsMenuApp className='w-5 h-5 cursor-pointer' />
                             <label tabIndex={0} className="m-1 cursor-pointer">Catalog</label>
                             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                                 <li><a>Item 1</a></li>
